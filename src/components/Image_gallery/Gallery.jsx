@@ -31,10 +31,10 @@ buttons.forEach(button => {
       <button class="carousel-button next" data-carousel-button="next"><ArrowForwardIosIcon/></button>
       <ul data-slides>
         <li class="slide" data-active>
-          <img src="../../images/logo.png" alt="Nature Image #1"/>
+          <img src="../../images/carousel1.webp" alt="Nature Image #1"/>
         </li>
         <li class="slide">
-          <img src="../../images/logo.png" alt="Nature Image #2"/>
+          <img src="../../images/carousel2.webp" alt="Nature Image #2"/>
         </li>
         <li class="slide">
           <img src="https://source.unsplash.com/ndN00KmbJ1c" alt="Nature Image #3"/>
