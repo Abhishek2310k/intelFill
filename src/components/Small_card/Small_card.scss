@@ -1,0 +1,64 @@
+.small_card {
+    background-color: white;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    .top {
+        display: flex;
+        justify-content: space-between;
+    .logo_and_title {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        h1 {
+            margin: 0;
+            font-size: medium;
+        }
+        h3 {
+            margin: 0;
+            font-size: x-small;
+            color: rgba(50,116,252,255);
+        }
+    }
+    .bookmark_and_share {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    }
+    .mid {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+        .date {
+            display: flex;
+            gap: 20px;
+        }
+        .participants {
+            display: flex;
+            gap: 20px;
+        }
+    }
+    .low {
+        display: flex;
+        color: gray;
+        justify-content: space-between;
+        align-items: center;
+        button {
+            color: white;
+            background-color: rgba(50,116,252,255);
+            padding: 15px;
+            border: none;
+            border-radius: 25px;
+        }
+    }
+}
