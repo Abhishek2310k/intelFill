@@ -1,0 +1,54 @@
+.recent_exams {
+    margin-left: 10%;
+    margin-top: 30px;
+    width: 80%;
+    h3{
+        margin-left: 20px;
+    }
+    .top {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    body{
+        background-color: black;
+        color: white;
+    }
+    
+    .final {
+        
+        overflow-x: auto;  // Enable horizontal scrolling
+        white-space: nowrap;  // Prevent wrapping to new lines
+        // background-color: white;
+    
+        .container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // flex-wrap: wrap;
+            width: fit-content;
+            gap: 20px;
+        }
+    
+    }
+    .final::-webkit-scrollbar {
+        display: none;
+    }
+    .buttons {
+        button {
+            background: none;
+            padding: 10px;
+            border: 1px solid rgba(50,116,252,255);
+            border-radius: 25px;
+            color: rgba(50,116,252,255);
+        }
+        #all_tag {
+            background-color: rgba(50,116,252,255);
+            padding: 10px 20px;
+            color: white;
+            border-radius: 20px;
+        }
+    }
+}
