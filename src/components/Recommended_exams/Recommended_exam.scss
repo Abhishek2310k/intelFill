@@ -1,0 +1,40 @@
+.recommended_exams {
+    margin-left: 10%;
+    margin-top: 30px;
+    width: 80%;
+    h3{
+        margin-left: 20px;
+    }
+    .top {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    body{
+        background-color: black;
+        color: white;
+    }
+    
+    .final {
+        
+        overflow-x: auto;  // Enable horizontal scrolling
+        white-space: nowrap;  // Prevent wrapping to new lines
+        // background-color: white;
+    
+        .container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // flex-wrap: wrap;
+            width: fit-content;
+            gap: 20px;
+        }
+    
+    }
+    .final::-webkit-scrollbar {
+        display: none;
+    }
+
+}

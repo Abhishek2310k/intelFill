@@ -1,11 +1,11 @@
 import React from 'react'
 import Gallery from '../../components/Image_gallery/Gallery'
-import Exam_card from '../../components/Exam_card/Exam_card'
+import Recommended_exam from '../../components/Recommended_exams/Recommended_exam'
 const Home = () => {
   return (
     <div className='home'>
       <Gallery/>
-      <Exam_card/>
+      <Recommended_exam/>
     </div>
   )
 }

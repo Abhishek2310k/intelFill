@@ -6,7 +6,7 @@ import Groups2Icon from '@mui/icons-material/Groups2';
 import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Link } from 'react-router-dom';
-const Exam_card = () => {
+const Exam_card = (props) => {
   const [bookmarked,setBookmarked] = useState(0);
 
   const handleBookmark = () => {
@@ -25,11 +25,11 @@ const Exam_card = () => {
     <div className='exam_card'>
     <div className='top'>
         <div className='logo'>
-            <img src='../../images/NTA_logo.png' alt='brand logo'/>
+            <img src={props.url} alt='brand logo'/>
         </div>
         <div className='title'>
-            <h1>JEE Mains 2024</h1>
-            <h3>National Test Agency</h3>
+            <h1>{props.main_title}</h1>
+            <h3>{props.sub_title}</h3>
         </div>
         <div className='bookmark' onClick={handleBookmark}>
             <Item bookmarked={bookmarked}/>
@@ -39,16 +39,16 @@ const Exam_card = () => {
     <div className='middle'>
         <div className='r1'>
             <div className='c1'><Groups2Icon fontSize='large'/></div>
-            <div className='c2'>More than 20</div>
+            <div className='c2'>More than {props.people}</div>
         </div>
         <div className='r2'>
             <div className='c1'><AccountBalanceWalletIcon fontSize='large'/></div>
-            <div className='c2'>Rs 1500</div>
+            <div className='c2'>{props.price}</div>
         </div>
         <div className='r3 row_buttons'>
-            <button>Engineering</button>
-            <button>IIT</button>
-            <button>PCM</button>
+            {props.tags.map(tag => (
+              <button>{tag}</button>
+            ))}
         </div>
         <div className='r4'>
             <Link to="#" style={{textDecoration:'none'}}>
