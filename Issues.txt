@@ -1,0 +1,5 @@
+1. -> Image Gallery 
+2. -> change the navbar dimensions and try making it drop down as the size of website changes
+3. -> font styles
+4. -> check for dimensions of div
+5. -> properly build details page that changes according to the id

@@ -6,4 +6,15 @@
         font-size: 30px;
         color: black;
     }
+    .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        .c1{
+            width: 50%;
+        }
+        .c2{
+            width: 48%;
+        }
+    }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Detail_card.scss'
 import { Link } from 'react-router-dom'
+
 const Detail_card = () => {
   return (
     <div className='detail_card'>

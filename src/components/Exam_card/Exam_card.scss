@@ -1,7 +1,7 @@
 .exam_card {
     background-color: white;
     width: 300px;
-    height: 300px;
+    height: 230px;
     border: 1px solid lightgray;
     border-radius: 10px;
     .logo {
@@ -26,7 +26,7 @@
     justify-content: space-between;
     align-content: center;
     .title {
-        margin-top: 10px;
+        margin-top: 5px;
     }
     h1 {
         margin: 0;
@@ -39,23 +39,23 @@
     }
 }
 .middle {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20%;
-    font-size: large;
+    font-size: medium;
     .r1 {
         display: flex;
         gap: 10px;
         .c1{
             align-items: end;
         }
-        margin-bottom: 20px;
+        margin-bottom: 8px;
     }
     .r2 {
         display: flex;
         gap: 10px;
     }
     .row_buttons{
-        margin-top: 20px;
+        margin-top: 10px;
         display: flex;
         gap: 10px;
         button {
@@ -66,7 +66,7 @@
        }
     }
     .r4{
-        margin-top: 10px;
+        margin-top: 15px;
         color: #0066CC;
         font-size: small;
         Link::active{

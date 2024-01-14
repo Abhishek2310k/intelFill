@@ -1,0 +1,84 @@
+.interesting_exams {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    .card {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    h2{
+        padding: 10px;
+        margin: 0;
+    }
+    .top {
+        margin-left: 20px;
+        display: flex;
+        gap: 10px;
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        h3{
+            font-size: 15px;
+            margin: 0;
+        }
+        .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            gap: 10px;
+            .sub_title {
+                color: gray;
+            }
+        }
+    }
+    .mid {
+        margin-left: 30px;
+        display: flex;
+        gap: 15px;
+        color: gray;
+        font-size: large;
+        span {
+            margin-top: 8px;
+        }
+    }
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        .left {
+            margin-left: 30px;
+        display: flex;
+        gap: 15px;
+        color: gray;
+        font-size: large;
+        span {
+            margin-top: 8px;
+        }   
+        }
+        padding-right: 10px;
+    }
+    .link{
+        display: inherit;
+        align-items: end;
+        color: rgba(50,116,252,255);
+    }
+    margin-bottom: 10px;
+    button {
+        padding: 10px;
+        border: 1px solid rgba(50,116,252,255);
+        border-radius: 25px;
+        font-size: large;
+        color: rgba(50,116,252,255);
+        background-color: white;
+        margin-left: 40%;
+        margin-bottom: 20px;
+        transition: ease 0.3s;
+    }
+    button:hover {
+        background-color: rgba(50,116,252,255);
+        color: white;
+    }
+}

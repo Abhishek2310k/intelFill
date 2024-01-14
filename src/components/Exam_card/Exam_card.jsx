@@ -38,11 +38,11 @@ const Exam_card = (props) => {
     <hr style={{width: "95%"}}/>
     <div className='middle'>
         <div className='r1'>
-            <div className='c1'><Groups2Icon fontSize='large'/></div>
+            <div className='c1'><Groups2Icon fontSize='medium'/></div>
             <div className='c2'>More than {props.people}</div>
         </div>
         <div className='r2'>
-            <div className='c1'><AccountBalanceWalletIcon fontSize='large'/></div>
+            <div className='c1'><AccountBalanceWalletIcon fontSize='medium'/></div>
             <div className='c2'>{props.price}</div>
         </div>
         <div className='r3 row_buttons'>
@@ -51,7 +51,7 @@ const Exam_card = (props) => {
             ))}
         </div>
         <div className='r4'>
-            <Link to="#" style={{textDecoration:'none'}}>
+            <Link to="#" style={{textDecoration:'none',color:"#0066CC"}}>
             <span>View Details <ArrowForwardIosIcon fontSize='x-small' color='primary'/></span>
             </Link>
         </div>
