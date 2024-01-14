@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='wrapper'>
       <div className='left'>
-        <img className='logo' src='../../images/logo.png' alt=""/>
+        <img className='logo' src='../../images/formlogo 2.png' alt=""/>
         <div className='item'>
           <span>Home</span>
         </div>

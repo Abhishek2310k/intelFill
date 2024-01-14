@@ -10,7 +10,7 @@ const Foorter = () => {
     <div className='footer'>
       <div className='col1'>
         <div className='r1'>
-          <img src='../../images/logo.png'/>
+          <img src='../../images/formlogo 2.png'/>
         </div>
         <div className='r2'>
           <FacebookIcon style={{color:'gray'}}/>

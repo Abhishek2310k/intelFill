@@ -1,5 +1,5 @@
 .navbar {
-    height: 85px;
+    height: 100px;
     margin-bottom: 50px;
     border-bottom: solid 1px black;
     background-color: white;
@@ -19,7 +19,7 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        gap: 25px;
+        gap: 40px;
         img {
             height: 75px;
             width: 120px;
@@ -42,20 +42,25 @@
                 float: right;
                 padding: 5px 10px;
                 margin-right: 16px;
-                font-size: 12px;
+                font-size: 16px;
                 border: none;
                 cursor: pointer;
             }
         }
         .profile {
             img {
-                height: 30px;
-                width: 30px;
+                margin: 0px;
+                height: 35px;
+                width: 35px;
                 border-radius: 50%;
             }
             width: 25px;
             height: 25px;
             border-radius: 50%;
+        }
+        span:hover {
+            color: #0074D9;
+            cursor: pointer;
         }
     }
     

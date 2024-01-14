@@ -7,15 +7,15 @@ const Home = () => {
 
   const slides = [
     {
-      src: "https://picsum.photos/seed/img1/600/400",
+      src: "../../../images/Group 52.png",
       alt: "Image 1 for carousel",
     },
     {
-      src: "https://picsum.photos/seed/img2/600/400",
+      src: "../../../images/gallery2.png",
       alt: "Image 2 for carousel",
     },
     {
-      src: "https://picsum.photos/seed/img3/600/400",
+      src: "../../../images/gallery3.png",
       alt: "Image 3 for carousel",
     },
   ];
