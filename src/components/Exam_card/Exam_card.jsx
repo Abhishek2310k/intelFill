@@ -8,10 +8,9 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Link } from 'react-router-dom';
 const Exam_card = (props) => {
   const [bookmarked,setBookmarked] = useState(0);
-
+  console.log("props = " + props.to);
   const handleBookmark = () => {
     setBookmarked(bookmarked === 0 ? 1 : 0);
-    console.log(bookmarked);
   }
 
   function Item({bookmarked}) {
@@ -51,7 +50,7 @@ const Exam_card = (props) => {
             ))}
         </div>
         <div className='r4'>
-            <Link to="#" style={{textDecoration:'none',color:"#0066CC"}}>
+            <Link to = {props.to} style={{textDecoration:'none',color:"#0066CC"}}>
             <span>View Details <ArrowForwardIosIcon fontSize='x-small' color='primary'/></span>
             </Link>
         </div>

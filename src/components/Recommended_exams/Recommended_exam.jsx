@@ -20,6 +20,7 @@ const Recommended_exam = () => {
               sub_title={data.second_title}
               people={data.participants}
               tags={data.tags}
+              to={data.to}
               />
             ))}
             </div>

@@ -1,5 +1,3 @@
-1. -> Image Gallery 
-2. -> change the navbar dimensions and try making it drop down as the size of website changes
-3. -> font styles
-4. -> check for dimensions of div
-5. -> properly build details page that changes according to the id
+1-> setting links in Exam cardscards✔️
+2-> setting links in exam_details
+3-> try changing the big card in exam_details

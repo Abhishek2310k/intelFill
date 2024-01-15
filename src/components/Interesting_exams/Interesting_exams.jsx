@@ -30,7 +30,7 @@ const Interesting_exams = () => {
                 <AccountBalanceWalletIcon fontSize='large'/>
                 <span>{data.cost}</span>
                 </div>
-                <Link className="link" to="/exam_details/1" style={{textDecoration:'none',fontSize:'large'}}>
+                <Link className="link" to={data.to} style={{textDecoration:'none',fontSize:'large'}}>
                     <span>View Details</span><ArrowForwardIcon/>
                 </Link>
             </div>

@@ -6,13 +6,12 @@ import ShareIcon from '@mui/icons-material/Share';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import GroupsIcon from '@mui/icons-material/Groups';
 
-const Small_card = () => {
+const Small_card = ({data}) => {
 
     const [bookmarked,setBookmarked] = useState(0);
 
   const handleBookmark = () => {
     setBookmarked(bookmarked === 0 ? 1 : 0);
-    console.log(bookmarked);
   }
 
   function Item({bookmarked}) {
@@ -26,10 +25,10 @@ const Small_card = () => {
     <div className='small_card'>
         <div className='top'>
         <div className='logo_and_title'>
-            <img src='../../images/NTA_logo.png' alt=''/>
+            <img src={data.logo_url} alt=''/>
             <div className='title'>
-                <h1>JEE Mains</h1>
-                <h3>National Test Agency</h3>
+                <h1>{data.main_title}</h1>
+                <h3>{data.second_title}</h3>
             </div>
         </div>
         <div className='bookmark_and_share'>
@@ -46,7 +45,7 @@ const Small_card = () => {
             <div className='date'>
                 <CalendarMonthIcon color='primary'/>
                 <span>
-                    Exam Date: 23 March 2023
+                    Exam Date: {data.exam_date}
                 </span>
             </div>
             <div className='participants'>

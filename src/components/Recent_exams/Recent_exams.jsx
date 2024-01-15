@@ -32,6 +32,8 @@ const Recent_exams = () => {
               sub_title={data.second_title}
               people={data.participants}
               tags={data.tags}
+              id={data.id}
+              to={data.to}
               />
             ))}
             </div>
