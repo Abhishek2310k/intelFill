@@ -34,6 +34,7 @@ const Recent_exams = () => {
               tags={data.tags}
               id={data.id}
               to={data.to}
+              key={data.key}
               />
             ))}
             </div>

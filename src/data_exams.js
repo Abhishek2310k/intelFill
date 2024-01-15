@@ -8,7 +8,8 @@ export default [
         tags:["Engineering","IIT","PCM"],
         exam_date:"23 March 2024",
         to:"/exam_details/1",
-        id:1
+        id:1,
+        key:1
     },
     {
         logo_url:"../images/SSC_logo.png",
@@ -19,7 +20,8 @@ export default [
         tags:["Engineering","PCM"],
         exam_date:"25 January 2024",
         to:"/exam_details/2",
-        id:2
+        id:2,
+        key:2
     },
     {
         logo_url:"../images/UPSC_logo.png",
@@ -30,7 +32,8 @@ export default [
         tags:["Engineering","PCM"],
         exam_date:"15 April 2024",
         to:"/exam_details/3",
-        id:3
+        id:3,
+        key:3
     },
     {
         logo_url:"../images/VITEE_logo.png",
@@ -41,7 +44,8 @@ export default [
         tags:["Engineering","PCM"],
         exam_date:"8 August 2024",
         to:"/exam_details/4",
-        id:4
+        id:4,
+        key:4
     },
     {
         logo_url:"../images/SRM_logo.png",
@@ -52,7 +56,8 @@ export default [
         tags:["Engineering","PCM"],
         exam_date:"28 April 2024",
         to:"/exam_details/5",
-        id:5
+        id:5,
+        key:5
     },
     {
         logo_url:"../images/TS_logo.png",
@@ -63,7 +68,8 @@ export default [
         tags:["Engineering","PCM"],
         exam_date:"15 September 2024",
         to:"/exam_details/6",
-        id:6
+        id:6,
+        key:6
     },
 
 ];

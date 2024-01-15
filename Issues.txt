@@ -1,5 +1,0 @@
-1-> setting links in Exam cardscards✔️
-2-> setting links in exam_details✔️
-3-> try changing the big card in exam_details
-4-> create a dropdown menu
-5-> adding a hiring page

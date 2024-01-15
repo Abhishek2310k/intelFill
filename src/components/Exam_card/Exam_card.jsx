@@ -8,7 +8,6 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Link } from 'react-router-dom';
 const Exam_card = (props) => {
   const [bookmarked,setBookmarked] = useState(0);
-  console.log("props = " + props.to);
   const handleBookmark = () => {
     setBookmarked(bookmarked === 0 ? 1 : 0);
   }
@@ -46,7 +45,8 @@ const Exam_card = (props) => {
         </div>
         <div className='r3 row_buttons'>
             {props.tags.map(tag => (
-              <button>{tag}</button>
+              <Link to="/page_not_found">
+              <button>{tag}</button></Link>
             ))}
         </div>
         <div className='r4'>

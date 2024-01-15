@@ -5,7 +5,6 @@ import { useState } from 'react';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 const Gallery = ({data}) => {
-  console.log(data);
   const [slide, setSlide] = useState(0);
 
   const nextSlide = () => {
