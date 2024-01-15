@@ -10,7 +10,7 @@ const Recent_exams = () => {
         <div className='recent_exams'>
         <div className='top'>
             <h3>Recent Exams</h3>
-            <Link to="#" style={{textDecoration:'none'}}><h3>See all</h3></Link>
+            <Link to="/page_not_found" style={{textDecoration:'none'}}><h3>See all</h3></Link>
         </div>
         <div className='buttons' style={{marginBottom:20}}>
         <div className="final">

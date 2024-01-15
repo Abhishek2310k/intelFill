@@ -5,6 +5,7 @@ import BookmarkIcon from '@mui/icons-material/Bookmark';
 import ShareIcon from '@mui/icons-material/Share';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import GroupsIcon from '@mui/icons-material/Groups';
+import { Link } from 'react-router-dom';
 
 const Small_card = ({data}) => {
 
@@ -57,8 +58,8 @@ const Small_card = ({data}) => {
         </div>
         <hr style={{color:'gray',width:"100%"}}/>
         <div className='low'>
-            <span>Posted some days ago</span>
-            <button>Apply now</button>
+            <span>Posted some days ago</span><Link to="/nowhere">
+            <button>Apply now</button></Link>
         </div>
     </div>
   )

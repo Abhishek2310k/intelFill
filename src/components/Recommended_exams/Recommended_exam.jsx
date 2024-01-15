@@ -8,7 +8,7 @@ const Recommended_exam = () => {
     <div className='recommended_exams'>
         <div className='top'>
             <h3>Recommended Exams</h3>
-            <Link to="#" style={{textDecoration:'none'}}><h3>See all</h3></Link>
+            <Link to="/page_not_found" style={{textDecoration:'none'}}><h3>See all</h3></Link>
         </div>
             <div className="final">
             <div className="container">

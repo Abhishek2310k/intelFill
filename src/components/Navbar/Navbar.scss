@@ -1,6 +1,6 @@
 .navbar {
     height: 100px;
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
     border-bottom: solid 1px black;
     background-color: white;
     .wrapper{
@@ -34,6 +34,7 @@
             width:300px;
             height:25px;
             border: none;
+            font-size: 15px;
             outline: none;
             }
             button {
@@ -57,6 +58,10 @@
             width: 25px;
             height: 25px;
             border-radius: 50%;
+            :hover {
+                cursor: pointer;
+                border: 0.5px solid gray;
+            }
         }
         span:hover {
             color: #0074D9;

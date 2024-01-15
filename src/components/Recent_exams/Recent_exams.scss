@@ -2,11 +2,11 @@
     margin-left: 10%;
     margin-top: 30px;
     width: 80%;
+    margin-bottom: 50px;
     h3{
         margin-left: 20px;
     }
     .top {
-        width: 90%;
         display: flex;
         justify-content: space-between;
     }
@@ -49,6 +49,19 @@
             padding: 10px 20px;
             color: white;
             border-radius: 20px;
+        }
+        .container {
+
+            button:hover {
+                background-color: rgba(50,116,252,255);
+                color: white;
+                cursor: pointer;
+            }
+            #all_tag:hover {
+                background-color: white;
+                color: rgba(50,116,252,255);
+                cursor: pointer;
+            }
         }
     }
 }

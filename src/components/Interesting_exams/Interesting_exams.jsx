@@ -37,7 +37,8 @@ const Interesting_exams = () => {
             <hr style={{color:'gray', width:'95%'}}/>
         </div>))}
         </div>
-        <button> View All </button>
+        <Link to="/page_not_found">
+        <button> View All </button></Link>
     </div>
   )
 }
