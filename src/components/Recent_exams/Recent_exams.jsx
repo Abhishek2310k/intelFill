@@ -15,9 +15,13 @@ const Recent_exams = () => {
         <div className='buttons' style={{marginBottom:20}}>
         <div className="final">
             <div className="container">
+            <Link to="/pnf">
             <button id='all_tag'>All</button>
+            </Link>
             {tags.map(tag=>(
+              <Link to="/pnf">
                 <button>{tag}</button>
+                </Link>
             ))}
             </div>
         </div>
